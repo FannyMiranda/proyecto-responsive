@@ -1,0 +1,36 @@
+#mobile{
+
+display: none;
+
+
+}
+
+@media (max-width: 770px){
+
+#mobile{
+
+display: inline;
+
+}
+
+#desktop{
+  
+
+display: none;
+
+}
+
+}
+h2{
+    color:darkred;
+}
+A:link {text-decoration:none;color:#0000cc;} 
+
+
+A:visited {text-decoration:none;color:#ffcc33;} 
+
+
+A:active {text-decoration:none;color:#ff0000;} 
+
+
+A:hover {text-decoration:underline;color:brown;} 
