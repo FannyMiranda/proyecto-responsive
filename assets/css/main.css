@@ -1,28 +1,132 @@
 
 #header_wrapper{
-  background:url("assets/images/TOSCANAylogofinal.jpg") no-repeat center top;
+  background:url("../../assets/images/TOSCANAylogofinal.jpg") no-repeat center top;
   min-height: 800px;
   width:100%;
   z-index: 1;
-  background-size: 100% 81%;
+ 
+  background-size: 79em 38em;
+      
+}
+#twitter {
+    position:absolute;
+    right:350px;
+    top: 3px;
+    z-index: 2;
 
+}
+#facebook{
+    position:absolute;
+    right: 400px;
+    top: 3px; 
+    
+    
+    
+}
+#instagram{
+    position:absolute;
+    right: : -100px;
+    top:3px;
+    left: 800px;
+}
+#in{
+    position:absolute;
+    right: 100;
+    top:3px;
+    left: 800px;
+}
+#youtube{
+    position: absolute;
+    right: 250px;
+    top:3px;
+}
+#nav-link{
+    color:white;
+    font-family: cursive; 
+    font-size: 20px;
+
+}
+
+
+#capa1{ 
+    position:absolute; 
+    z-index:1;
+    font-family: cursive;
+    right: 600px;
+    color: chocolate;
+} 
+#capa2{
+    position:absolute;
+    z-index:1;
+    font-family: cursive;
+    right: 700px;
+    color:chocolate;
+    
+}
+#capa3{
+    position: absolute;
+    z-index: 1;
+    font-family: cursive;
+    right:850px;
+    color:chocolate;
+}
+
+#wrapper {
+    background:url('input');
+    width:859px;height:231px;
+    }
+#button {
+    position:absolute;
+    z-index: 1;
+    left:950px;
+    top:450px;
+    font-family: cursive;
+    color:saddlebrown;
+    font-size: 30px;
+    
     }
 
-nav ul {
-    float: left;
-    
-}
-nav ul li {
-    display: inline;
-    color:darkcyan;
-    text-shadow: 1px 1px beige;
-    padding-right: 100px;
-    
-  
-}
+footer .col-sm-4{
+    min-height: 120px;
  
-      
 
+}    
+label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	margin-bottom: 0px;
+	font-weight:bold;
+   
+   
+}
+INPUT{
+    color:brown;
+    border-color: brown;
+    font-family: cursive;
+    background-color: beige;
+    
+    
+    
+    
+
+}
+.row{
+ 
+    text-align: center;
+    background: url("../images/hojas.jpg")
+    no-repeat center center fixed; 
+ 
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    color:burlywood;
+    }
+
+.col-md-4{
+    font-family:cursive;
+    color:beige;
+    font-size:125%;
+}
 #mobile{
 display: none;
 }
@@ -35,7 +139,6 @@ display: inline;
 
 #desktop{
   display: none;
-  background: none;
 }
 }
 
@@ -43,81 +146,17 @@ h2{
     color:darkred;
 }
 
-A:link {text-decoration:none;color:darkgreen;} 
+A:link {text-decoration:none;color:brown} 
 
 
-A:visited {text-decoration:none;color:darkcyan;} 
+A:visited {text-decoration:none;color:darkgoldenrod;} 
 
 
-/*A:active {text-decoration:none;color:chocolate;} 
+A:active {text-decoration:none;color:chocolate;} 
 
 
-A:hover {text-decoration:underline;color:chocolate;} */
+A:hover {text-decoration:underline;color:darkgoldenrod;} 
 
-#twitter {
-    position:absolute;
-    right:350px;
-    top: 3px;
-    z-index: 2;
-
-}
-#facebook{
-    position:absolute;
-    right: 300px;
-    top: 3px; 
-}
-#instagram{
-    position:absolute;
-    right: : -100px;
-    top:3px;
-    left: 850px;
-}
-#in{
-    position:absolute;
-    right: 100;
-    top:3px;
-    left: 1000px;
-}
-#youtube{
-    position: absolute;
-    right: 195px;
-    top:3px;
-}
-
-INPUT{
-    color:brown;
-    border-color: brown;
-    font-family: cursive;
-    background-color: beige;
-}
-.container-fluid{
- 
-    text-align: center;
-    background: url("assets/images/hojas.jpg")
-    no-repeat center center fixed; 
-    background-size: cover;
-    color:burlywood;
-    }
-
-.col-md-4{
-    font-family:cursive;
-    color:beige;
-    font-size:125%;
-
-}
-#button {
-   position: relative;
-    z-index: 1;
-    left: 128px;
-    top: -285px;
-    font-family: cursive;
-    color: saddlebrown;
-    font-size: 30px;
-}
-
-    
-    
-}
 
 
 h1{
@@ -208,6 +247,4 @@ input {
      
 }
 
-.col-md-6{
-    position: center;
-}
+

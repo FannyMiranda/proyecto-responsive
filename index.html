@@ -5,9 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css" >  
-    
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+
 </head>
 <body>
+
+    
+    
+    
+    <nav>
+    <div id="navegador"></div>
+    <ul>
+        <li><a href="#Dondeestamos">Donde estamos</a></li>
+        <li><a href="#Quienessomos">Quienes somos</a></li>
+        <li><a href="#Registro">Registro</a></li>
+        <li><a href="#Login">Login</a></li>
+    </ul>
+</nav>
+    
+<section name="home">
+            <div id="header_wrapper">
+            </div>
+            <div id="cabecera">
+            <div id="logotipo"></div>
+                
+           
+                 <!--boton-->
+         <div id='wrapper'>
+        
+             <input type='button' value='Empezamos'  id="button"> 
+
+                </div>
+            </div>
+    
+                <!--iconos-->
+    <div id="twitter">
+                <a href="https://twitter.com/?lang=es">
+                <img src="assets/images/twitter_2_icon-icons.com_59206.png" width="30" />
+                </a>
+            </div>
+    <div id="facebook">
+                <a href="https://es-es.facebook.com/">
+                <img src="assets/images/facebook_icon-icons.com_59205.png" width ="30" />
+                </a>
+            </div>
+    
+    <div id="instagram">
+                <a href="https://www.instagram.com/?hl=es">
+                <img src="assets/images/instagram_icon-icons.com_59207.png" width="30"/>
+                </a>
+            </div>
+    <div id="in">
+                <a href="https://es.linkedin.com">
+                <img src="assets/images/linkedin_icon-icons.com_59208.png" width="30" />
+                </a>
+            
+            </div>
+    <div id="youtube">
+                <a href="https://www.youtube.com/?hl=es&gl=ES">
+                <img src="assets/images/youtube_icon-icons.com_59209.png" width="30"/>
+                </a>    
+            </div>
+    
+    
+    </section>  
+    
+    
     <section id="desktop">
         
         <div class="container">
@@ -16,7 +79,8 @@
 
                 <div class="col-lg-4 col-md-4">
 
-                    <div class="hovereffect">
+                    <div class="highlightContent">
+                        
 
                         <img class="img-fluid" src="images/Barcelona1.jpg" alt="Barcelona">
                         
@@ -25,7 +89,7 @@
 
                             <h2>Barcelona</h2>
 
-                            <a class="info" href="#">300$</a>
+                            <a class="info" href="#">300€</a>
 
                         </div>
 
@@ -43,7 +107,7 @@
 
                             <h2>Galicia</h2>
 
-                            <a class="info" href="#">300$</a>
+                            <a class="info" href="#">300€</a>
 
                         </div>
 
@@ -61,7 +125,7 @@
 
                             <h2>Mallorca</h2>
 
-                            <a class="info" href="#">300$</a>
+                            <a class="info" href="#">300€</a>
 
                         </div>
 
@@ -83,7 +147,7 @@
 
                             <h2>Malaga</h2>
 
-                            <a class="info" href="#">300$</a>
+                            <a class="info" href="#">300€</a>
 
                         </div>
 
@@ -101,7 +165,7 @@
 
                             <h2>Segovia</h2>
 
-                            <a class="info" href="#">300$</a>
+                            <a class="info" href="#">300€</a>
 
                         </div>
 
@@ -119,7 +183,7 @@
 
                             <h2>Valencia</h2>
 
-                            <a class="info" href="#">300$</a>
+                            <a class="info" href="#">300€</a>
 
                         </div>
 
@@ -208,6 +272,75 @@
         </div>
 
     </section>
+    <hr>
+    <form action="registrar.php" method="post" class="form-register">
+    
+     
+     <hr>
+   
+             <h2 class="form_titulo">Ya estas registrado?</h2>
+        <div class="contenedor-inputs" >
+            <input type="text" name="Nombre" placeholder="usuario" class="input-100%" required>
+            <input type="email" name="email" placeholder="email" class="input-100%" required>
+            <input type="password" name="contraseña" placeholder="contraseña" class="input-50%" required>
+            <input type="password" name="Repetir contraseña" placeholder="Repetir contraseña" required>
+            <input type="submit" value="Enviar" class="btn-enviar">
+            <p class="form__link">Ya tienes una cuenta?<a href="#"> Ingresa aquí</a></p>
+                                                         
+            </div>
+    
+    
+    
+        </form>
+                                 
+    
+      <hr>                                                 
+    
+    <footer class="container-fluid">
+     
+     <div class="row well">
+     <div class="col-md-4">
+         <adress>
+         <h3>¿NECESITAS AYUDA?</h3>
+             Tel: 489 894 898, <br>ayudageekshubs@gmail.com<br> <small>De Lunes a Viernes de 08:30h. a 20:30h.</small>
+         </adress>
+         </div>
+         <div class="col-md-4">
+         <h3>INFORMACIÓN</h3>
+         Quienes somos <br> Preguntas frecuentes<br>Política de Privacidad<br>Condiciones Generales <br> Aviso legal <br>Contacto <br> Programa de puntos
+             <a href="mailto:hola@eventfactory.com">
+             </a>
+           
+         </div>
+         <div class="col-md-4">
+         <h3>Suscríbete a la NEWSLETTER</h3>
+             <INPUT type="text"  name="Nombre"></INPUT> 
+             
+           <form>
+  
+            <input type="button"  style="width:120px;height:40px;background-color:burlywood;border-width:thin;border-style:solid;
+            border-color:brown;color:aliceblue;font-size:16pt;font-family:cursive;font-weight:bold; margin:12px; transition: all 1s cubic-bezier(0.10, 1, 0.10, 1);text-shadow: 1px 1px 6px brown;
+            border-shadow: " value="Suscríbete">
+            </form>
+
+                                                                                                
+            
+         </div>
+         
+         
+     </div>
+     
+     
+        <div class="row">
+        <div class="col-md-12">
+        <br> &copy;Fanny Miranda
+        </div>
+        </div>
+        
+  
+</footer>
+    
+                   
     
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
